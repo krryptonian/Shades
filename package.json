@@ -7,7 +7,13 @@
     "url": "https://www.linkedin.com/in/nirav-m/"
   },
   "version": "1.0.0",
-  "license": "osl-3.0",
+  "license": "Apache-2.0",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "private": true,
   "repository": {
     "type": "git",
