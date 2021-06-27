@@ -1,14 +1,28 @@
 {
   "name": "shades",
   "description": "The super fast color schemes generator!",
-  "author": "Nirav Mandli",
+  "author": {
+    "name": "Nirav Mandli",
+    "email": "niravmandli462@gmail.com",
+    "url": "https://www.linkedin.com/in/nirav-m/"
+  },
   "version": "1.0.0",
+  "license": "osl-3.0",
   "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/krryptonian/Shades.git"
   },
-  "keywords": [],
+  "keywords": [
+    "Shades",
+    "Color Palette",
+    "Next.js",
+    "React",
+    "JavaScript",
+    "Open-source",
+    "Tailwind CSS"
+  ],
+  "main": "pages/_app.jsx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
