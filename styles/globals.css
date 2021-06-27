@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-gray-900 bg-gray-50 text-sm font-poppins font-regular antialiased;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  @apply hidden;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  @apply hidden;
+}
+
+.palette_colors div {
+  flex-basis: 1px;
+}
+
+.palette_colors div:hover {
+  flex-basis: 80px;
+}
+
+.palette_colors div:hover span {
+  @apply opacity-100;
+}
