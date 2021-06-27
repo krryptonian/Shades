@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import { Fragment } from 'react'
 import Navbar from '../components/Navbar'
 import { Toaster } from 'react-hot-toast'
 
@@ -17,7 +16,7 @@ function MyApp({ Component, pageProps }) {
         }}
         reverseOrder={false}
       />
-      <div className='overflow-y-auto'>
+      <div className='overflow-y-auto z-0 hide-scrollbar'>
         <Component {...pageProps} />
       </div>
     </div>
